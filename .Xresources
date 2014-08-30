@@ -1,0 +1,107 @@
+! XTerm*termName: xterm-256color
+! XTerm*locale: true
+! XTerm*metaSendsEscape: true
+! XTerm*saveLines: 8192
+
+! XTerm*faceName: DejaVu Sans Mono:style=Book:antialias=true
+! XTerm*faceSize: 8
+
+! XTerm*borderWidth: 0
+
+! XTerm*background: #1B1D1E
+! XTerm*foreground: #CCCCCC
+! XTerm*cursorColor: #d0d0d0
+! black
+! XTerm*color0: #1B1D1E
+! XTerm*color8: #646767
+! red
+! XTerm*color1: #F92673
+! XTerm*color9: #FF5996
+! green
+! XTerm*color2: #86B413
+! XTerm*color10: #B8E354
+! yellow
+! XTerm*color3: #FDB436
+! XTerm*color11: #FEED6A
+! blue
+! XTerm*color4: #55C5D6
+! XTerm*color12: #8CEEFF
+! magenta
+! XTerm*color5: #8952FE
+! XTerm*color13: #9C6EFE
+! cyan
+! XTerm*color6: #465457
+! XTerm*color14: #899CA1
+! white
+! XTerm*color7: #CCCCC7
+! XTerm*color15: #FFFFFF
+
+URxvt.perl-lib:         /usr/lib/urxvt/perl/
+
+URxvt.perl-ext-common:  default,matcher,keyboard-select,url-select,selection-to-clipboard,font-size
+URxvt.urlLauncher:      /usr/bin/xdg-open
+URxvt.matcher.button:   1
+URxvt.colorUL:          #4682B4
+
+URxvt.iso14755:         false
+URxvt.iso14755_52:      false
+
+URxvt.keysym.M-Escape:  perl:keyboard-select:activate
+URxvt.keysym.M-s:       perl:keyboard-select:search
+URxvt.keysym.M-c:       perl:clipboard:copy
+URxvt.keysym.M-v:       perl:clipboard:paste
+URxvt.keysym.M-C-v:     perl:clipboard:paste_escaped
+
+URxvt.keysym.C-Up:      perl:font-size:increase
+URxvt.keysym.C-Down:    perl:font-size:decrease
+URxvt.keysym.C-S-UP:    perl:font-size:incglobal
+URxvt.keysym.C-S-Down:  perl:font-size:decglogal
+
+URxvt.locale: true
+URxvt.loginShell: true
+URxvt.termName: screen-256color
+
+! name xterm prevents from echoing last command name
+URxvt.termName: xterm
+URxvt.saveLines: 8192
+
+URxvt.buffered: true
+
+URxvt.font: xft:DejaVu Sans Mono:size=8:antialias=true
+
+URxvt.depth: 32
+URxvt.colorMode: on
+URxvt.boldColors: on
+URxvt.dynamicColors: on
+URxvt.cursorBlink: true
+
+URxvt.background: [95]#1B1D1E
+URxvt.foreground: #CCCCCC
+
+URxvt.scrollstyle: plain
+URxvt.scrollBar: false
+
+! black
+URxvt.color0: #1B1D1E
+URxvt.color8: #646767
+! red
+URxvt.color1: #F92673
+URxvt.color9: #FF5996
+! green
+URxvt.color2: #86B413
+URxvt.color10: #B8E354
+! yellow
+URxvt.color3: #FDB436
+URxvt.color11: #FEED6A
+! blue
+URxvt.color4: #55C5D6
+URxvt.color12: #8CEEFF
+! magenta
+URxvt.color5: #8952FE
+URxvt.color13: #9C6EFE
+! cyan
+URxvt.color6: #465457
+URxvt.color14: #899CA1
+! white
+URxvt.color7: #CCCCC7
+URxvt.color15: #FFFFFF
